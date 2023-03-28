@@ -2,6 +2,9 @@
 
 In this analysis, we will be exploring data from the Physical Activity and Transit Survey (PAT). It is a survey conducted by the NYC Department of Health and Mental Hygiene in 2010-2011 consisting of 2 major parts: a telephone survey of physical activity and health (N=3811) and a weeklong accelerometer device study (N=679) . Note: A sub-sample of participants of the phone survey participated in the accelerometer study.
 
+Python Version: Python 3.10.9
+Packages: pandas, numpy, matplotlib, seaborn, sklearn
+
 ## This analysis consists of several parts:
 
 - Select a subset of features, based on presense of NaNs, multicollinearity, and gaunged significance.
@@ -13,6 +16,7 @@ In this analysis, we will be exploring data from the Physical Activity and Trans
 
 <img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/heatmap.jpeg"  width="60%" height="60%">
 
+## Clustering Analysis
 
-Python Version: Python 3.10.9
-Packages: pandas, numpy, matplotlib, seaborn, sklearn
+
+
