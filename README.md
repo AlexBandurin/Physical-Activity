@@ -54,7 +54,7 @@ Packages: pandas, numpy, matplotlib, seaborn, sklearn
 
 ### K Means
 
-For **K-Means** algorithm, Elbow was method used to determine optimal number of clusters to use:
+Elbow was method used to determine optimal number of clusters to use:
 
 <img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/elbow.jpeg"  width="60%" height="60%">
 
@@ -62,7 +62,9 @@ Thus, 2 clusters were used, and the data was separated in the following manner a
 
 <img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/bar.jpeg"  width="60%" height="60%">
 
-For **GMM** algorithm, Akaike information criterion (AIC) and Bayesian information criterion (BIC) was used to determine number of clusters, K:
+### GMM
+
+Akaike information criterion (AIC) and Bayesian information criterion (BIC) was used to determine number of clusters, K:
 
 <img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/GMM.jpeg"  width="60%" height="60%">
 
