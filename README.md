@@ -13,7 +13,7 @@ In this analysis, we will be exploring data from the Physical Activity and Trans
 
 <div style="width:60px ; height:60px">
 ![Heatmap](https://github.com/AlexBandurin/Physical-Activity/blob/master/heatmap.jpeg)
-<div>
+</div>
 
 
 Python Version: Python 3.10.9
