@@ -22,11 +22,55 @@ Packages: pandas, numpy, matplotlib, seaborn, sklearn
 - Merge the 2 surveys into one dataframe
 - Rename columns/features for clarity. 
 
-### Create a correlation matrix
+### Correlation matrix
 
 <img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/heatmap.jpeg"  width="60%" height="60%">
 
 ## Clustering Analysis
+
+### Data Preparation:
+
+- From the features explored up until this point, select 17 to perform cluster analysis with. These are:
+   <font size="2">
+  - Health (reported health status)
+  - Age
+  - MVPA (All minutes per week of all physical activity)
+  - Diet (diet)
+  - Exer_routine (Regular exercise routine)
+  - gym_member (had gym membership in the last year)
+  - screentime (Categories of hours per weekday of television or computer use during weekdays)
+  - phys7 (During the last 7 days, did you do anysports, fitness, or recreational activities?)
+  - tobacco1 (Tobacco use)
+  - bmicat4 (Body Mass Index (BMI), categorical)
+  - cholesterol (High cholesterol)
+  - Diabetes (Presense of diabetes)
+  - chronic1 (Hypertension)
+  - Sleep (Number of days in the last 30 days the participant did not have enough rest or sleep)
+  - Mental (Number of days in the last 30 days the participant didn't have good mental health)
+  - counts_avg (*"The accelerometer was set to record activity in 10 second increments – this number represents an average of all counts on all valid           days")
+  - moderate_avg (Average number of Moderate minutes on all valid days, measured by accelerometer)
+  </font> 
+ - Handle missing values. Since we are running a clustering algorithm, there can be no NaNs within the dataset. This was done using imputation with mean      and mode values.
+
+### K Means
+
+For **K-Means** algorithm, Elbow was method used to determine optimal number of clusters to use:
+
+<img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/elbow.jpeg"  width="60%" height="60%">
+
+Thus, 2 clusters were used, and the data was separated in the following manner as shown in the bar plot:
+
+<img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/bar.jpeg"  width="60%" height="60%">
+
+For **GMM** algorithm, Akaike information criterion (AIC) and Bayesian information criterion (BIC) was used to determine number of clusters, K:
+
+<img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/GMM.jpeg"  width="60%" height="60%">
+
+The algorithm was ran with 2 and 3 clusters, in the following manner:
+
+<img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/bar2.jpeg"  width="60%" height="60%">
+
+<img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/bar3.jpeg"  width="60%" height="60%">
 
 
 
