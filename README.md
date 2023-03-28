@@ -52,7 +52,7 @@ Packages: pandas, numpy, matplotlib, seaborn, sklearn
   </font> 
  - Handle missing values. Since we are running a clustering algorithm, there can be no NaNs within the dataset. This was done using imputation with mean      and mode values.
 
-### K Means
+### K-Means
 
 Elbow was method used to determine optimal number of clusters to use:
 
@@ -62,7 +62,7 @@ Thus, 2 clusters were used, and the data was separated in the following manner a
 
 <img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/bar.jpeg"  width="60%" height="60%">
 
-### GMM
+### Gaussian Mixture Model (GMM)
 
 Akaike information criterion (AIC) and Bayesian information criterion (BIC) was used to determine number of clusters, K:
 
