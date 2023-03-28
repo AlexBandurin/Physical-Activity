@@ -11,7 +11,7 @@ In this analysis, we will be exploring data from the Physical Activity and Trans
   
 ## Correlation Analysis
 
-<img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/heatmap.jpeg"  width="60%" height="30%">
+<img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/heatmap.jpeg"  width="60%" height="60%">
 
 
 Python Version: Python 3.10.9
