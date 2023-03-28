@@ -3,6 +3,7 @@
 In this analysis, we will be exploring data from the Physical Activity and Transit Survey (PAT). It is a survey conducted by the NYC Department of Health and Mental Hygiene in 2010-2011 consisting of 2 major parts: a telephone survey of physical activity and health (N=3811) and a weeklong accelerometer device study (N=679) . Note: A sub-sample of participants of the phone survey participated in the accelerometer study.
 
 [Data source](https://www.nyc.gov/site/doh/data/data-sets/physical-activity-and-transit-survey-public-use-data.page)
+
 Python Version: Python 3.10.9
 Packages: pandas, numpy, matplotlib, seaborn, sklearn
 
