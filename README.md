@@ -11,7 +11,7 @@ In this analysis, we will be exploring data from the Physical Activity and Trans
   
 ## Correlation Analysis
 
-![Heatmap](heatmap.jpeg)
+![Heatmap](https://github.com/AlexBandurin/Physical-Activity/blob/master/heatmap.jpeg)
 
 Python Version: Python 3.10.9
 Packages: pandas, numpy, matplotlib, seaborn, sklearn
