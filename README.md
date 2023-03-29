@@ -4,7 +4,7 @@ In this analysis, we will be exploring data from the Physical Activity and Trans
 
 [Data source](https://www.nyc.gov/site/doh/data/data-sets/physical-activity-and-transit-survey-public-use-data.page)
 
-Python Version: Python 3.10.9
+Python Version: 3.10.9
 Packages: pandas, numpy, matplotlib, seaborn, sklearn
 
 ## This analysis consists of several parts:
