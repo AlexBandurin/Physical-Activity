@@ -112,7 +112,7 @@ It is difficult to pit a characteristic to cluster 2, so it is seems best to kee
 
 # Conclusion:
 
-We conclude that K means is a better-suited clustering algorithm for our purposes as it is the most comprehensive for identifying distinctions between healthy and unhealthy individuals. Based on our analysis, it is clear that the most distuniushing characteristics correlated<font size="18"><sup>*</sup></font> with a healthy lifestyle are (in the order of decreasing correlation):
+We conclude that K means is a better-suited clustering algorithm for our purposes as it is the most comprehensive for identifying distinctions between healthy and unhealthy individuals. Based on our analysis, it is clear that the most distuniushing characteristics correlated<font size="5"><sup>*</sup></font> with a healthy lifestyle are (in the order of decreasing correlation):
 
 - Regular physical exercise (frequent moderate physical activity)
 - Less screentime (computer or television during weekdays)
@@ -123,7 +123,7 @@ We conclude that K means is a better-suited clustering algorithm for our purpose
 
 ### Most of these factors are within an indivudual's control, which suggests that better health could be attained with better habits.
 
-<font size="18"><sup>*</sup></font> It is very important to keep in mind that correlation does not mean causation. So, just because participants in the "healthy" cluster exhibited the aforementioned behaviours does not mean that their health was directly *caused* by them. 
+<font size="5"><sup>*</sup></font> It is very important to keep in mind that correlation does not mean causation. So, just because participants in the "healthy" cluster exhibited the aforementioned behaviours does not mean that their health was directly *caused* by them. 
 
 ##  Feature Key: 
 
