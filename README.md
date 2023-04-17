@@ -121,7 +121,7 @@ We conclude that K means is a better-suited clustering algorithm for our purpose
 - Lower Body Mass Index
 - Chronic Conditions
 
-Most of these factors are within an indivudual's control, which suggests that better health could be attained with better habits.
+### Most of these factors are within an indivudual's control, which suggests that better health could be attained with better habits.
 
 ^*^ It is very important to keep in mind that correlation does not mean causation. So, just because participants in the "healthy" cluster exhibited the aforementioned behaviours does not mean that their health was directly *caused* by them. 
 
