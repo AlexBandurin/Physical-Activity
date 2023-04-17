@@ -69,7 +69,7 @@ Akaike information criterion (AIC) and Bayesian information criterion (BIC) was 
 
 <img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/GMM.jpeg"  width="60%" height="60%">
 
-The algorithm was ran with 2 and 3 clusters, in the following manner:
+The algorithm was ran with 3 and 4 clusters, in the following manner:
 
 <img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/bar2.jpeg"  width="60%" height="60%">
 
