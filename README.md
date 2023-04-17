@@ -63,9 +63,7 @@ Thus, 2 clusters were used, and the data was separated in the following manner a
 
 <img src="https://github.com/AlexBandurin/Physical-Activity/blob/master/bar.jpeg"  width="60%" height="60%">
 
-We took a random sample of 8 participants for each cluster and printed the average value of each variable. 
-
-Based on this, it seems like the algorithm divided people into those that are "Healthy" (cluster 2) and "Unhealthy" (cluster 1).
+It seems like the algorithm divided people into those that are "Healthy" (cluster 2) and "Unhealthy" (cluster 1).
 
 We could see that cluster 1 contains individuals with an average "Health" variable of 1.9, which is equivalent to "very good", while cluster 2 is at 2.9, which is just "good". Surprisingly, the average ages are very similar, with cluster 1 being a little older (as to be expected). 
 
@@ -116,3 +114,72 @@ It is difficult to pit a characteristic to cluster 2, so it is seems best to kee
 
 We conclude that K means is a better-suited clustering algorithm for our purposes as 
 
+##  Feature Key: 
+
+**Age:**
+     
+| Label|Meaning (age in years)|
+| --- | --- |
+|1|18-24|
+|2|25-44|
+|3|45-64|
+|4|65+  |
+
+**Health:**
+
+| Label|Meaning|
+| --- | --- |
+|1|Excellent|
+|2|Very good|
+|3|Good|
+|2|Fair|
+|3|Poor|
+
+The following variables use the same labeling (Excellent-Poor): 
+-  **Diet:**
+
+**Exer_routine:**
+
+|Label|Meaning|
+| --- | --- |
+|1|Yes|
+|2|No|
+
+The following variables use the same labeling (Yes/No): 
+- **"Gym_member**
+- **Cholesterol**
+- **Diabetes**
+- **Hypertension**
+
+**Screentime:**
+
+| Label|Meaning|
+| --- | --- |
+|1|Never|
+|2|½ hour or less|
+|3|1-1 ½ hours|
+|4|2-2 ½ hours|
+|5|3-3 ½ hours|
+|6|4-4 ½ hours|
+|7|5-5 ½ hours|
+|8|6-6 ½ hours|
+|9|7-7 ½ hours|
+|10|8-9 ½ hours|
+|11|10-12 hours|
+
+**Tobacco**
+
+| Label|Meaning|
+| --- | --- |
+|1|Most days (or all days)|
+|2|Some days|
+|3|Never|
+
+**BMI**
+
+| Label|Meaning|
+| --- | --- |
+|1|Underweight|
+|2|Normal weight|
+|3|Overweight|
+|4|Obese|
